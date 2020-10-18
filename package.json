@@ -1,0 +1,21 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "A Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js true",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Bot",
+    "Discord"
+  ],
+  "author": "Arnold Bolke",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0"
+  }
+}
